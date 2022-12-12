@@ -44,12 +44,12 @@ access-control-expose-headers: Content-length
     },
     "ScreenshotBusURL": "https://hl.hapara.com/oxygen-screens/watch/hl/student/",
     "ScreenshotsConfig": {
-        ScreenshotsHiResHeight: 600,
-        ScreenshotsHiResWidth: 800,
-        ScreenshotsHiResQuality: 0.8,
-        ScreenshotsLoResHeight: 300,
-        ScreenshotsLoResWidth: 300,
-        ScreenshotsLoResQuality: 0.3
+        "ScreenshotsHiResHeight": 600,
+        "ScreenshotsHiResWidth": 800,
+        "ScreenshotsHiResQuality": 0.8,
+        "ScreenshotsLoResHeight": 300,
+        "ScreenshotsLoResWidth": 300,
+        "ScreenshotsLoResQuality": 0.3
     },
     "Valid": true,
     "WhiteList": [
