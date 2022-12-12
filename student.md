@@ -62,3 +62,32 @@ access-control-expose-headers: Content-length
     "LogURL": ""
 ]
 ```
+
+## Get current focus sessions/message
+Request
+```http
+POST https://api.hapara.com/hlstate/student/state
+Content-type: application/json
+
+[
+    "ID": "553187120532800203556",
+    "Classes": [
+        "9d3a0aa3-3f53-453e-98a2-448716e5799a@yourschool.edu",
+        "4273b6b8-4fbe-45d9-b340-7d12f88b1f15@yourschool.edu",
+        "167766e0-3820-46fd-aa10-07e927a007dd@yourschool.edu",
+        "1d955a4d-73af-40d6-864a-f96f720e3a92@yourschool.edu",
+        "9977f190-1602-49de-94b1-72a710ca05b5@yourschool.edu",
+        "cf95c1fc-24d1-480e-9ccb-15e1a3fc9817@yourschool.edu"
+    ]
+]
+```
+Response
+```http
+HTTP/1.1 200 OK
+Content-type:application/json
+Access-control-allow-origin: *
+
+{
+    "CurrentSessions": [],
+    "Messages": []
+}
