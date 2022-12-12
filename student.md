@@ -13,7 +13,7 @@ Content-type: application/json
 ```
 You should get a response like this
 ```http
-HTTP 1.1 200 OK
+HTTP/1.1 200 OK
 Content-type: application/json
 Access-control-allow-origin: *
 access-control-expose-headers: Content-length
