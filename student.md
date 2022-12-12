@@ -84,7 +84,7 @@ Content-type: application/json
 Response
 ```http
 HTTP/1.1 200 OK
-Content-type:application/json
+Content-type: application/json
 Access-control-allow-origin: *
 
 {
