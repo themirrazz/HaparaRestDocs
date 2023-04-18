@@ -69,7 +69,7 @@ Request
 POST https://api.hapara.com/hlstate/student/state
 Content-type: application/json
 
-[
+[{
     "ID": "553187120532800203556",
     "Classes": [
         "9d3a0aa3-3f53-453e-98a2-448716e5799a@yourschool.edu",
@@ -79,7 +79,7 @@ Content-type: application/json
         "9977f190-1602-49de-94b1-72a710ca05b5@yourschool.edu",
         "cf95c1fc-24d1-480e-9ccb-15e1a3fc9817@yourschool.edu"
     ]
-]
+}]
 ```
 Response
 ```http
